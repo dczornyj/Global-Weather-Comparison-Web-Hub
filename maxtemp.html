@@ -12,37 +12,72 @@
 
 <!-- ADD THE NAVBAR! -->
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Plots
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
-                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="data.html">Data</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="maxtemp_dropdown"><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+              <li class="humidity_dropdown"><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li class="cloudiness_dropdown"><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li class="windspeed_dropdown"><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="data.html">Data</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <p>This is the Latitude vs. Max Temperature page</p>
-    <img src="../Resources/assets\images/Fig1.png"
-    alt="Latitude vs. Cloudiness" title="Latitude vs. Max Temperature"/>
+    <h1 class="maxtemp_header" >Max Temperature</h1>
 
+    <div class="container">
+    
+      <div class="row">
+
+          <div class="col-md-8">
+            <img class="max_temp" src="../Resources/assets\images/Fig1.png"
+            alt="Latitude vs. Max Temperature" title="Latitude vs. Max Temperature"/>
+          </div>
+          <br>
+          <div class="col-md-4">
+              <p class="maxtpar_1" >From looking at this plot, the distribution of data points should make sense based on one's knowledge of longitude and latitude
+                From the moment that one is taught about longitude and 
+                latitude, one of the main rules of thumb is that the closer one city's latitudinal coordinate is to 0 degrees, then the closer it is to the equator.
+              </p>
+              <br>  
+              <p class="maxtpar_2">The closer a place is to the equator, the hotter it is. This illustration is a perfect example of this concept. Despite the fact that there are some outliers 
+              (points that are isolated from the rest clustering of other points), one can observe that the apex of the curve (highest Max temperatures) occur at a latitude of 0 degrees.
+              </p>
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

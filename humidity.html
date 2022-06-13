@@ -12,38 +12,60 @@
 
 <!-- ADD THE NAVBAR! -->
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Plots
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
-                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="data.html">Data</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="maxtemp_dropdown"><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+              <li class="humidity_dropdown"><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li class="cloudiness_dropdown"><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li class="windspeed_dropdown"><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="data.html">Data</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <p>This is the Latitude vs. Humidity page</p>
-    <img src="../Resources/assets\images/Fig2.png"
-    alt="Latitude vs. Cloudiness" title="Latitude vs. Humidity"/>
+    <h1 class=" humidity_header">Humidity</h1>
+
+    <div class="container">
+    
+      <div class="row">
+
+          <div class="col-md-8">
+            <img class="humidity" src="../Resources/assets\images/Fig2.png"
+            alt="Latitude vs. Humidity" title="Latitude vs. Humidity"/>
+          </div>
+          <br>
+          <div class="col-md-4">
+              <p class="humparagraph_1">When it comes to humidity, one environment that often comes to mind is the landscape of tropical rainforests. The majority of these 
+                environments in the world are found between the tropic of cancer (located 23 degrees N of the equator) and the tropic of capricorn (located 23 degrees S of the equator).
+              </p>
+              <br>
+              <p class="humparagraph_2">From our plot of Latitude vs. Humidity, one can see that there is a large majority of data points within the latitudes of 45 degrees North 
+                and 45 degrees S, which for the most part justifies our above statement. However, there seems to be a different array of data points 
+                pertaining to the 60-80 degrees N range in which there are a considerable amount of high humidity recordings, but also a handful of cities that recorded a humidity percentage of 0%.
+                It would be fascinating to pinpoint cities within the 60-80 degrees N on a map to visualize where they are.
+
+              </p>
+          </div>
+      </div>
+  
 
     

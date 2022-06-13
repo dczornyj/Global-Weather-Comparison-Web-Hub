@@ -1,0 +1,124 @@
+
+/* cloudiness page styling */
+
+.cloudiness {
+    width: 800px;
+    margin-top: 3%;
+    
+}
+
+.cloudparagraph_1 {
+    font-size: 15px;
+    margin-top: 37%;
+    color: lightslategray ;
+}
+
+.cloudparagraph_2 {
+    font-size: 15px;
+    color: lightslategray ;
+  
+}
+
+.cloudiness_dropdown {
+    background-color: lightslategray;
+}
+
+.cloudiness_header {
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: 2%;
+    color: lightslategray;
+}
+
+
+/* max temp page styling */
+.max_temp  {
+    width: 800px;
+    margin-top: 3%;
+
+}
+
+.maxtemp_dropdown {
+    background-color: rgb(177, 37, 37);
+}
+
+.maxtemp_header {
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: 2%;
+    color: rgb(177, 37, 37);
+}
+
+.maxtpar_1 {
+    font-size: 15px;
+    margin-top: 25%;
+    color:rgb(177, 37, 37)
+
+}
+
+.maxtpar_2 {
+    font-size: 15px;
+    color:rgb(177, 37, 37)
+    
+}
+
+
+
+/* humidity page styling */
+
+.humidity {
+    margin-top: 5%;
+}
+
+
+.humidity_dropdown {
+    background-color: rgb(0, 153, 255);
+
+}
+
+.humidity_header {
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: 2%;
+    color: rgb(0, 153, 255);
+}
+
+.humparagraph_1 {
+    font-size: 15px;
+    margin-top: 22%;
+    color:rgb(0, 153, 255)
+}
+
+.humparagraph_2 {
+    font-size: 15px;
+    color: rgb(0, 153, 255);
+}
+
+/* 
+windpseed page styling */
+
+.windspeed_dropdown {
+    background-color: rgb(88, 218, 88);
+}
+
+.windspeed_header {
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: 2%;
+    color: rgb(88, 218, 88);
+}
+
+.wspar_1 {
+    font-size: 15px;
+    margin-top: 22%;
+    color:rgb(88, 218, 88)
+}
+
+.wspar_2 {
+    font-size: 15px;
+    color:rgb(88, 218, 88)
+}
+
+#compareimgs {
+    width: 600px;
+}

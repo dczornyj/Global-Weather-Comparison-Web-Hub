@@ -12,36 +12,57 @@
 
 <!-- ADD THE NAVBAR! -->
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Plots
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
-                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="data.html">Data</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li class="maxtemp_dropdown"><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+              <li class="humidity_dropdown"><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+              <li class="cloudiness_dropdown"><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+              <li class="windspeed_dropdown"><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="data.html">Data</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <p>This is the Latitude vs. Wind Speed page</p>
-    <img src="../Resources/assets\images/Fig4.png"
-    alt="Latitude vs. Cloudiness" title="Latitude vs. Wind Speed"/>
+    <h1 class="windspeed_header" > Wind Speed</h1> 
+
+    <div class="container">
+    
+      <div class="row">
+
+          <div class="col-md-8">
+            <img src="../Resources/assets\images/Fig4.png"
+            alt="Latitude vs. Wind Speed" title="Latitude vs. Wind Speed"/>
+          </div>
+          <br>
+          <div class="col-md-4">
+              <p class="wspar_1">Of the four climate factors explored in this project, wind speed shows to be the factor that is safe-to-say the mildest in terms of 
+                the strength in its value. This makes sense as it is more common for a given location to have a milder windspeed (as seen with the heavily 
+                populated cluster of data points between the 0-10 mph range).
+              </p>
+              <br>
+              <p class="wspar_2">One key aspect that I believe would alter the representation of our data points on this plot would be if we removed all cities that were not 
+                positioned on a coastline.Areas located on expansive bodies of water (particularly oceans/seas/large lakes/etc.) are often  much more windy than 
+                land-locked areas. Thus, it could be fascinating to compare the cities this way to better observe patterns in wind speed.
+              </p>
+          </div>
+      </div>
+  

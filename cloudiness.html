@@ -19,20 +19,20 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Plots
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
-                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+                <li class="maxtemp_dropdown"><a class="dropdown-item" href="maxtemp.html">Max Temperature</a></li>
+                <li class="humidity_dropdown"><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                <li class="cloudiness_dropdown"><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                <li class="windspeed_dropdown"><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Comparison</a>
+              <a class="nav-link" href="comparison.html">Comparison</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="data.html">Data</a>
@@ -42,6 +42,27 @@
       </div>
     </nav>
 
-    <p>This is the Latitude vs. Cloudiness page</p>
-    <img src="../Resources/assets\images/Fig3.png"
-    alt="Latitude vs. Cloudiness" title="Latitude vs. Cloudiness"/>
+    <h1 class=" cloudiness_header">Cloudiness</h1>
+
+    <div class="container">
+    
+      <div class="row">
+
+          <div class="col-md-8">
+            <img class="cloudiness" src="../Resources/assets\images/Fig3.png"
+            alt="Latitude vs. Cloudiness" title="Latitude vs. Cloudiness"/>
+          </div>
+      
+          <div class="col-md-4">
+              <p class="cloudparagraph_1"> Here we can see how City Latitude is plotted against Cloudiness. It is important to first recognize that this data
+                only represents a fixed moment in time on an individual day. Interestingly, when looking at the cities in the dataset that have
+                a latitude of 20+ degrees, one can observe a large concentration of cities that have a cloudiness level of 70%+.
+              </p>
+              <br>
+              <p class="cloudparagraph_2">It is also significant to see that 
+                there are a large amount of cities in the dataset that show either no clouds in the sky (0% cloudiness) or small patches of blue sky (75%+ cloudiness) 
+                at the given time in which the data was obtained.
+              </p>
+          </div>
+      </div>
+  
