@@ -15,7 +15,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Latitude</a>
+      <a  id= "latitude_button" class="navbar-brand" href="index.html" alt="Home Page" title="Home Page">Latitude</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -44,35 +44,69 @@
   </nav>
     
     <br>
-    <br>
-    <br>
-    <p>This webpage serves to provide a illustrative approach to exploring the relationship between Latitude and several other factors pertaining to 
-      climate and weather conditions for a particular dataset. Please navigate your way across this website to view Latitude's relationship with Humidity Level,
-      Maximum Temperature, Wind Speed, and Cloudiness. You can also observe the data which has been used to construct the illustation pages by going to the 'Data'
-      tab in the navigation bar.
-
-    </p>
+    
 
 
     <div class="container">
     
       <div class="row">
 
-          <div class="col-md-6">
-            <img class="cloudiness" src="../Resources/assets\images/Fig3.png"
-            alt="Latitude vs. Cloudiness" title="Latitude vs. Cloudiness"/>
+          <div id="left_side_index" class="col-md-7">
+            <div class="row"> 
+              <div class="col-md-5">
+            <img class="lat_on_globe" src="https://study.com/cimages/multimages/16/latitude_lines_color.svg4915724583939692975.png"/>
+            </div>
+            <div class="col-md-7"> 
+            <p>This webpage serves to provide a illustrative approach to exploring the relationship between Latitude and several other factors pertaining to 
+              climate and weather conditions for a particular dataset. Please navigate your way across this website to view Latitude's relationship with Humidity Level,
+              Maximum Temperature, Wind Speed, and Cloudiness from a fixed time API Call. 
+            </p>
+            <br>
+            <p>
+              Please feel free to observe the data which has been used to construct the illustation pages by clicking on the 'Data'
+              tab in the navigation bar. The data for this project was collected from the OpenWeatherMap API. 
+            </p>
+          </div>
+          </div>
           </div>
       
-          <div class="col-md-6">
-              <p class="cloudparagraph_1"> Here we can see how City Latitude is plotted against Cloudiness. It is important to first recognize that this data
-                only represents a fixed moment in time on an individual day. Interestingly, when looking at the cities in the dataset that have
-                a latitude of 20+ degrees, one can observe a large concentration of cities that have a cloudiness level of 70%+.
-              </p>
-              <br>
-              <p class="cloudparagraph_2">It is also significant to see that 
-                there are a large amount of cities in the dataset that show either no clouds in the sky (0% cloudiness) or small patches of blue sky (75%+ cloudiness) 
-                at the given time in which the data was obtained.
-              </p>
+          <div id="right_side" class="col-md-5">
+            <h4 class="plots_index_header">Plots</h4>
+              <div class="row"> 
+                
+                <div class="col-md-6">
+                  <a href="cloudiness.html">
+                  <img class="top_row" src="../Resources/assets\images/Fig3.png" 
+                    alt="Latitude vs. Cloudiness" title="Latitude vs. Cloudiness"/>
+                    </a>
+                  </div>
+                  
+
+                  <div class="col-md-6">
+                    <a href="humidity.html">
+                    <img class="top_row" src="../Resources/assets\images/Fig2.png"
+                    alt="Latitude vs. Humidity" title="Latitude vs. Humidity"/> 
+                    </a>
+                  </div>
+              </div> 
+              
+              <div class="row">
+                <div class="col-md-6">
+                  <a href="maxtemp.html">
+                  <img class="bottom_row" src="../Resources/assets\images/Fig1.png"
+                  alt="Latitude vs. Max Temperature" title="Latitude vs. Max Temperature"/>
+                  </a>
+                </div>
+
+                <div class="col-md-6">
+                  <a href="windspeed.html">
+                  <img class="bottom_row" src="../Resources/assets\images/Fig4.png"
+                   alt="Latitude vs. Wind Speed" title="Latitude vs. Wind Speed"/>
+                  </a>   
+                </div>
+            </div> 
+
+
           </div>
       </div>
 
