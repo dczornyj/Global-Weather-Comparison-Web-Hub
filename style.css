@@ -178,7 +178,12 @@ windpseed page styling */
     
 }
 
-
+/* formatting index page  */
+.home_title {
+    color: blue;
+    font-weight: bold;
+    margin-left: 17%;
+}
 
 
 /* formatting right side of index page */
@@ -217,7 +222,218 @@ windpseed page styling */
 /* formatting navbar */
 
 #latitude_button {
-    background-color: rgb(231, 213, 196);
+    background-color: rgba(7, 25, 223, 0.744);
     padding: 0.5em;
+    color: black;
     
 }
+
+#nav_bar_format {
+    background: rgb(231, 213, 196);
+    font-weight: bolder; 
+}
+
+#whole_right_side {
+    padding: 0.5em;
+    background-color: rgb(231, 213, 196) ;
+}
+
+
+ 
+@media (max-width:600px) {
+
+    #nav_bar_format {
+        background-color: rgb(6, 186, 6);
+    }
+
+    .lat_on_globe {
+        margin-left: 21%;
+        margin-top: 1%
+    }
+
+    #top_left_img {
+        flex: 25%;
+        width: 25px;
+    }
+
+    #top_right_img {
+        flex: 25%;
+        width: 25px;
+
+    }
+
+    #bottom_left_img {
+        flex: 25%;
+        width: 25px;
+
+    }
+
+    #bottom_right_img {
+        flex: 25%;
+        width: 25px;
+
+    }
+
+    #comparecloud {
+        display: block;  
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #comparewind {
+        display: block;  
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #comparemaxtemp {
+        display: block;  
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #comparehumid {
+        display: block;  
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cloudcompare_heading {
+        margin-left: 30%;
+    }
+    
+    .windcompare_heading {
+        margin-left: 30%;
+
+    }
+    
+    .maxtempcompare_heading {
+        margin-left: 22%;
+    }
+    
+    .humidcompare_heading {
+        margin-left: 30%;
+    
+    }
+
+    #data_table {
+        margin-left: 0%;
+    }
+
+    .data_text {
+        margin-left:12%;
+    }
+
+    /* Cloudiness page Media Query */
+
+    .cloudiness {
+        width: 450px ;
+        margin-left: 0%;
+        padding: 0.5em;
+        background-color: lightslategray;
+    }
+
+    .cloudparagraph_1 {
+        font-size: 15px;
+        margin-top: 3%;
+        color: lightslategray ;
+    }
+    
+    .cloudparagraph_2 {
+        font-size: 15px;
+        color: lightslategray ;
+      
+    }
+
+    .cloudiness_header {
+        font-size: 25px;
+        margin-left: 40%;
+        margin-top: 2%;
+        color: lightslategray;
+    }
+    /* Windspeed Page Media Query */
+    .windspeed_header {
+        font-size: 25px;
+        margin-left: 40%;
+        margin-top: 2%;
+        color: rgb(88, 218, 88);
+    }
+
+    .windspeed {
+        width: 450px;
+        margin-left: 0%;
+        padding: 0.5em;
+        background-color: rgb(88, 218, 88);
+    
+    }
+    
+    .wspar_1 {
+        font-size: 15px;
+        margin-top: 3%;
+        color:rgb(88, 218, 88)
+    }
+    
+    .wspar_2 {
+        font-size: 15px;
+        color:rgb(88, 218, 88)
+    }
+
+    /* Max Temp Page Media Query */
+    .max_temp  {
+        width: 450px;
+        margin-top: 3%;
+        margin-left: 0%;
+        padding: 0.5em;
+        background-color: rgb(177, 37, 37);
+    
+    }
+    
+    .maxtemp_header {
+        font-size: 25px;
+        margin-left: 33%;
+        margin-top: 2%;
+        color: rgb(177, 37, 37);
+    }
+    
+    .maxtpar_1 {
+        font-size: 15px;
+        margin-top: 3%;
+        color:rgb(177, 37, 37);
+    
+    }
+    
+    .maxtpar_2 {
+        font-size: 15px;
+        color:rgb(177, 37, 37)
+        
+    }
+
+    /* Humidity Page Media Query */
+
+    .humidity {
+        width: 450px;
+        margin-left: 0%;
+        padding: 0.5em;
+        background-color: rgb(0, 153, 255)
+    }
+    
+    .humidity_header {
+        font-size: 25px;
+        margin-left: 40%;
+        margin-top: 2%;
+        color: rgb(0, 153, 255);
+    }
+    
+    .humparagraph_1 {
+        font-size: 15px;
+        margin-top: 3%;
+        color:rgb(0, 153, 255)
+    }
+    
+    .humparagraph_2 {
+        font-size: 15px;
+        color: rgb(0, 153, 255);
+    }
+}
+
+

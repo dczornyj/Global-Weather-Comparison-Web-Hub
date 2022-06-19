@@ -1,6 +1,6 @@
-link for webpage of picture obtained on home page: https://study.com/learn/lesson/lines-latitude-examples.html
 
 
+*link for picture used on home page: https://study.com/learn/lesson/lines-latitude-examples.html
 
 
 # Web_Design_Challenge

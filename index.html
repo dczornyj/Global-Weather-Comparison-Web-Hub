@@ -13,7 +13,7 @@
 
 <!-- ADD THE NAVBAR! -->
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav id="nav_bar_format" class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a  id= "latitude_button" class="navbar-brand" href="index.html" alt="Home Page" title="Home Page">Latitude</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,12 +36,14 @@
             <a class="nav-link" href="comparison.html">Comparison</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="data.html">Data</a>
+            <a class="nav-link" href="data.html">Data</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <br>
+  <h3 class="home_title">Latitude vs. Weather Statistics </h3>
     
     <br>
     
@@ -64,7 +66,7 @@
             <br>
             <p>
               Please feel free to observe the data which has been used to construct the illustation pages by clicking on the 'Data'
-              tab in the navigation bar. The data for this project was collected from the OpenWeatherMap API. 
+              tab in the navigation bar. The data for this project was collected from a call to the OpenWeatherMap API. 
             </p>
           </div>
           </div>
@@ -72,9 +74,9 @@
       
           <div id="right_side" class="col-md-5">
             <h4 class="plots_index_header">Plots</h4>
-              <div class="row"> 
+              <div id="right_first_row" class="row"> 
                 
-                <div class="col-md-6">
+                <div id="top_left_img" class="col-md-6">
                   <a href="cloudiness.html">
                   <img class="top_row" src="../Resources/assets\images/Fig3.png" 
                     alt="Latitude vs. Cloudiness" title="Latitude vs. Cloudiness"/>
@@ -82,7 +84,7 @@
                   </div>
                   
 
-                  <div class="col-md-6">
+                  <div id="top_right_img" class="col-md-6">
                     <a href="humidity.html">
                     <img class="top_row" src="../Resources/assets\images/Fig2.png"
                     alt="Latitude vs. Humidity" title="Latitude vs. Humidity"/> 
@@ -91,14 +93,14 @@
               </div> 
               
               <div class="row">
-                <div class="col-md-6">
+                <div id="bottom_left_img" class="col-md-6">
                   <a href="maxtemp.html">
                   <img class="bottom_row" src="../Resources/assets\images/Fig1.png"
                   alt="Latitude vs. Max Temperature" title="Latitude vs. Max Temperature"/>
                   </a>
                 </div>
 
-                <div class="col-md-6">
+                <div id= "bottom_right_img" class="col-md-6">
                   <a href="windspeed.html">
                   <img class="bottom_row" src="../Resources/assets\images/Fig4.png"
                    alt="Latitude vs. Wind Speed" title="Latitude vs. Wind Speed"/>
