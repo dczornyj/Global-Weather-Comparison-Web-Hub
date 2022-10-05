@@ -10,7 +10,7 @@
 
 
 # Live deployment of site 
- https://dczornyj.github.io/Web_Design_Challenge/
+https://dczornyj.github.io/Global-Weather-Comparison-Web-Hub/
 
 
 
