@@ -19,7 +19,7 @@
 # Screenshots
 
 *image of the home page*
-![web-home page](https://user-images.githubusercontent.com/101612220/194091946-1151276e-a77f-4570-b350-f14d0facecc3.png)
+![web-home page](https://user-images.githubusercontent.com/101612220/194093661-44f94934-e595-498f-aa54-fdd1103db0fb.png)
 
 *image of the comparison page* 
 ![web-comparison](https://user-images.githubusercontent.com/101612220/194093226-624cabe4-ee6f-4747-8b0a-bfafe63b2569.png)
