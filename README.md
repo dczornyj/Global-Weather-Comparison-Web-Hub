@@ -6,9 +6,13 @@
 
 -In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
-*Live deployment of site*: https://dczornyj.github.io/Web_Design_Challenge/
-
 *link for picture used on home page:* https://study.com/learn/lesson/lines-latitude-examples.html
+
+
+# Live deployment of site 
+ https://dczornyj.github.io/Web_Design_Challenge/
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -18,10 +22,11 @@
 ![web-home page](https://user-images.githubusercontent.com/101612220/194091946-1151276e-a77f-4570-b350-f14d0facecc3.png)
 
 *image of the comparison page* 
-![web-comparison](https://user-images.githubusercontent.com/101612220/194092339-daf9bc2e-c1e9-45ba-820f-a86ab6176e3e.png)
+![web-comparison](https://user-images.githubusercontent.com/101612220/194093226-624cabe4-ee6f-4747-8b0a-bfafe63b2569.png)
 
 *image of table from which data was used to create plots*
-![web-data table](https://user-images.githubusercontent.com/101612220/194092377-30293a4d-111c-48d4-9978-e533fd5bf15f.png)
+![web-data table](https://user-images.githubusercontent.com/101612220/194093180-c07325c5-f732-470d-9dd7-7ba8ca13a12a.png)
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
